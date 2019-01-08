@@ -1018,6 +1018,24 @@ footer{
     width: 300px;
 }
 
+@media(max-width:1250px){
+    header .inner-content {
+        padding: 170px 150px;
+    }
+}
+
+@media(max-width:1024px){
+    header .inner-content {
+        padding: 170px 50px;
+    }
+}
+
+@media(max-width:991px){
+    header .inner-content {
+        padding: 170px 15px;
+    }
+}
+
 @media(max-width:767px){
     .totop-button,
     nav {
@@ -1275,10 +1293,10 @@ footer{
     header {
         height: 140vh
     }
-    header .inner-content {
-        padding: 110px 150px;
-    }
 
+    header .inner-content {
+        padding: 100px 15px;
+    }
     .inner-content h1 {
         font-size: 41px;
         line-height: 35px;
@@ -1439,20 +1457,3 @@ footer{
     }
 }
 
-@media(max-width:1250px){
-    header .inner-content {
-        padding: 170px 150px;
-    }
-}
-
-@media(max-width:1024px){
-    header .inner-content {
-        padding: 170px 50px;
-    }
-}
-
-@media(max-width:991px){
-    header .inner-content {
-        padding: 170px 15px;
-    }
-}
