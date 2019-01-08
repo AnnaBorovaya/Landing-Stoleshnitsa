@@ -291,14 +291,21 @@ header .inner-content{
 .grey-40{
     font-size: 40px;
     line-height: 50px;
+    max-width: 400px;
+    display: inline-block
 }
 .grey-30{
     font-size: 30px;
     line-height: 30px;
+    max-width: 450px;
+    display: inline-block
 }
 .grey-20{
     font-size: 20px;
     line-height: 22px;
+    max-width: 400px;
+    display: inline-block;
+    
 }
 .phone-number {
     font-size: 46px;
@@ -1059,8 +1066,9 @@ footer{
         flex-wrap: wrap;
     }
     .item-advantage {
-        margin: 0 40px 20px 40px
-        
+        margin: 0 5px 10px 5px;
+        width: 170px;
+        height: 170px 
     }
    
 
@@ -1073,7 +1081,7 @@ footer{
         padding: 40px 30px 20px 30px
     }
     .share{
-        padding: 0 0 50px 0
+        padding: 40px 0 50px 0
     }
     .share-content-text{
         text-align:center;
@@ -1093,6 +1101,9 @@ footer{
         background-position-y: center;
     }
     /***********/
+    .why-best-change-content-header {
+        margin-right: 0;
+    }
     .why-best-change-content{
         display: block
     }
@@ -1255,9 +1266,178 @@ footer{
     .footer-content .slogan{
         display: none
     }
-    
+
+   
 }
 
+@media(max-width:479px){
+
+    header {
+        height: 140vh
+    }
+    header .inner-content {
+        padding: 110px 150px;
+    }
+
+    .inner-content h1 {
+        font-size: 41px;
+        line-height: 35px;
+    }
+    .inner-content h1 span {
+        font-size: 20px;
+    }
+
+    .item-advantage {
+        margin: 0 5px 10px 5px;
+        width: 130px;
+        height: 130px;
+        font-size: 12px;
+        border: 2px solid white;
+        padding: 10px;
+        line-height: 15px;
+    }
+    .advantage-content img{
+        widows: 50%;
+    }
+
+    .share-content-form {
+        padding: 20px 20px 0 20px;
+    }
+
+    .share {
+        padding: 0 0 50px 0;
+    }
+    .double-input .short {
+        flex-basis: 38%;
+        margin-right: 10px;
+    }
+    input {
+        padding: 15px;
+    }
+    .decorate{
+        background-size: 100%
+    }
+    .row-4{
+        margin-left: 0;
+        margin-top: 20px
+    }
+    .phone-number {
+        font-size: 36px;
+        margin: 5px 0;
+    }
+    .why-best-change-content-header h2{
+        font-size: 30px
+    }
+    .why-best-change-text-item {
+        background-position: center;
+
+    }
+    .why-best-change-text-item p {
+        line-height: 18px;
+        padding: 20px 0 25px 30px;
+        font-size: 16px
+    }
+    .why-best-change-text-item ::before {
+        left: 40px;
+    }
+    .name-1{
+        font-size: 30px
+    }
+    .stone h2 {
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    .stone-content {
+        margin-bottom: 30px
+    }
+
+    .stone {
+        padding: 30px 0 0 0;
+        margin-bottom: 50px
+    }
+    /****************/
+    .we-produce {
+        padding: 50px 0;
+    }
+    .we-produce button {
+        width: 200px;
+    }
+
+        /******************/
+    .sertificate-content{
+        margin-left: 50px
+    }
+    
+    .sertificate {
+    padding: 30px 0 50px 0;
+    }
+    .sertificate .name-1 {
+        margin-bottom: 30px;
+    }
+    
+    /************/
+    .item-after-header {
+        padding: 0 10px 20px 100px
+        
+    }
+    .bottom-part-with-text .right-part {
+        padding: 0 10px 20px 100px
+    }
+    .produce-item {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .present-content .middle-part .decorate {
+
+        margin: 0;
+    }
+    
+    .present-content .middle-part .top-text {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .footer-content .contact {
+     
+        font-size: 14px;
+       
+    }
+    .footer-content .contact::before {
+        display: none
+    }
+    
+
+    .rewius-bottom-part{
+        font-size: 14px;
+        padding: 20px;
+    }
+    .rewius h2 {
+        margin-bottom: 30px;
+    }
+    .about-client {
+        padding: 40px 20px
+    }
+    .about-client p span {
+        font-size: 24px;
+    }
+    .about-client {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 0
+    }
+    .rewius-content {
+        height: 480px;
+    }
+    .rewius .slick-dots{
+        bottom: 25px
+    }
+    .present {
+        padding: 0 0 30px 0
+    }
+}
 
 @media(max-width:1250px){
     header .inner-content {
